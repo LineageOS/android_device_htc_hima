@@ -115,6 +115,7 @@ DEVICE_MANIFEST_FILE := device/htc/hima/manifest.xml
 DEVICE_MATRIX_FILE := device/htc/hima/compatibility_matrix.xml
 
 # Init
+TARGET_INIT_VENDOR_LIB := libinit_hima
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Lights
