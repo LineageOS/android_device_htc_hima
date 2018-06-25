@@ -127,6 +127,9 @@ BOARD_NFC_HAL_SUFFIX := msm8994
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
+# Properties
+TARGET_SYSTEM_PROP := device/htc/hima/system.prop
+
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 BOARD_USES_QC_TIME_SERVICES := true

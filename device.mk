@@ -21,9 +21,6 @@ $(call inherit-product-if-exists, vendor/htc/hima/hima-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
