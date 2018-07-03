@@ -66,6 +66,13 @@ AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
 
+# Bionic
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/lib/libHtcVteEngine.so|/system/vendor/lib/libshim_camera.so \
+    /system/vendor/lib/libizat_core.so|/system/vendor/lib/libshim_gps.so \
+    /system/vendor/lib64/libizat_core.so|/system/vendor/lib64/libshim_gps.so \
+    /system/vendor/lib64/libril.so|/system/vendor/lib64/libshim_ril.so
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/hima/bluetooth
 BOARD_CUSTOM_BT_CONFIG := device/htc/hima/bluetooth/libbt_vndcfg.txt
