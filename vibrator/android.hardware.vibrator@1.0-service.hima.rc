@@ -1,3 +1,8 @@
+on init
+    # Set vibrator intensity permissions
+    chown system system /sys/devices/virtual/timed_output/vibrator/voltage_level
+    chmod 0644 /sys/devices/virtual/timed_output/vibrator/voltage_level
+
 service vibrator-1-0 /vendor/bin/hw/android.hardware.vibrator@1.0-service.hima
     class hal
     user system
