@@ -152,7 +152,8 @@ TARGET_RIL_VARIANT := caf
 BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+-include device/qcom/sepolicy/sepolicy.mk
+-include device/qcom/sepolicy/legacy-sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/htc/hima/sepolicy
 
 # Use Snapdragon LLVM, if available
