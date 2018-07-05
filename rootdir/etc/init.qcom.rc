@@ -341,9 +341,9 @@ on boot
 # Services start here
 
 service adsprpcd /system/vendor/bin/adsprpcd
-   class main
-   user media
-   group media
+    class main
+    user media
+    group media
 
 service audiod /system/bin/audiod
    class late_start
@@ -426,11 +426,11 @@ on property:sys.shutdown.requested=*
     stop per_proxy
 
 service perfd /system/system/vendor/bin/perfd
-   class main
-   user root
-   group root readproc
-   disabled
-   writepid /dev/cpuset/system-background/tasks
+    class main
+    user root
+    group root readproc
+    disabled
+    writepid /dev/cpuset/system-background/tasks
 
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class main
