@@ -700,8 +700,8 @@ bin/ipacm-diag:vendor/bin/ipacm-diag
 # IR
 bin/cir_fw_update:vendor/bin/cir_fw_update
 etc/cir.img:vendor/etc/cir.img
-lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so
-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
+lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.msm8994.so
+lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8994.so
 
 # Keymaster
 vendor/firmware/keymaster.b00:vendor/firmware/keymaster/keymaster.b00
