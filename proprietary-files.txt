@@ -732,9 +732,9 @@ vendor/firmware/libpn547_fw.so
 # Perf
 bin/energy-awareness:vendor/bin/energy-awareness
 bin/msm_irqbalance:vendor/bin/msm_irqbalance
-vendor/bin/perfd
-vendor/lib64/libqti-perfd-client.so
-vendor/lib/libqti-perfd-client.so
+vendor/bin/perfd|3abbda7d519d567429cfab3294ae5e62d8e8d5eb
+vendor/lib64/libqti-perfd-client.so|eb3bb8c51fd022efe89341ffb91d238e388256e9
+vendor/lib/libqti-perfd-client.so|a52d27399fd4ca2522a4ca3a97697346ed9cb7d1
 
 # Peripheral manager
 bin/pm-proxy:vendor/bin/pm-proxy
@@ -809,10 +809,10 @@ vendor/lib64/libxml.so
 lib64/hw/sensors.msm8994.so:vendor/lib64/hw/sensors.msm8994.so
 
 # Thermal
-vendor/bin/thermal-engine
-vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib/libthermalclient.so
+vendor/bin/thermal-engine|d501a7b6261f606cd79c188548d747f4c3ec1b03
+vendor/lib64/libthermalclient.so|b8b3af940651f0e06a6c769051eed76a208ffbd6
+vendor/lib64/libthermalioctl.so|6165b829945d8133f02e3f2d368399a06ede9f5a
+vendor/lib/libthermalclient.so|6b84a374b99baef6218886c8a8b87081c054de84
 
 # Time services
 -app/TimeService/TimeService.apk
