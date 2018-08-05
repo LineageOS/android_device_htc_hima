@@ -828,6 +828,6 @@ etc/firmware/fw_bcm4356_apsta.bin
 etc/firmware/fw_bcm4356.bin
 
 # Widevine
-vendor/lib/libdrmdecrypt.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libdrmdecrypt.so|045f69fc0af0979e1a59628cd1d39ef4ce183a38
+vendor/lib64/mediadrm/libwvdrmengine.so|4278a71cfc06525187e571561e9e53fdf15e13b8
+vendor/lib/mediadrm/libwvdrmengine.so|a66b5270bfb797ce5c821f97d30d2c8d8dcb3d1evendor/lib/libdrmdecrypt.so
