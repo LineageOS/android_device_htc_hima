@@ -78,10 +78,10 @@ USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bionic
 TARGET_LD_SHIM_LIBS := \
-    /system/vendor/lib/libHtcVteEngine.so|/system/vendor/lib/libshim_camera.so \
-    /system/vendor/lib/libizat_core.so|/system/vendor/lib/libshim_gps.so \
-    /system/vendor/lib64/libizat_core.so|/system/vendor/lib64/libshim_gps.so \
-    /system/vendor/lib64/libril.so|/system/vendor/lib64/libshim_ril.so
+    /system/vendor/lib/libHtcVteEngine.so|/system/vendor/lib/libshim_camera_hima.so \
+    /system/vendor/lib/libizat_core.so|/system/vendor/lib/libshim_gps_hima.so \
+    /system/vendor/lib64/libizat_core.so|/system/vendor/lib64/libshim_gps_hima.so \
+    /system/vendor/lib64/libril.so|/system/vendor/lib64/libshim_ril_hima.so
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/hima/bluetooth

@@ -3,6 +3,7 @@ subdirs = [
     "init",
     "liblog_htc",
     "light",
+    "shims",
     "usb",
     "vibrator",
 ]

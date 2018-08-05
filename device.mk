@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl-legacy \
-    libshim_camera \
+    libshim_camera_hima \
     Snap
 
 # Consumer IR
@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
-    libshim_gps
+    libshim_gps_hima
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.conf:system/etc/gps.conf
@@ -267,7 +267,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
-    libshim_ril
+    libshim_ril_hima
 
 # Seccomp
 PRODUCT_COPY_FILES += \
