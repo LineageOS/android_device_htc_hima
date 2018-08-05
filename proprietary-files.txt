@@ -95,6 +95,7 @@ lib/libc2dcolorconvertgpu.so:vendor/lib/libc2dcolorconvertgpu.so
 lib/libcameraface.so:vendor/lib/libcameraface.so
 lib/libcamerapp.so:vendor/lib/libcamerapp.so
 lib/libFaceRetrieve.so:vendor/lib/libFaceRetrieve.so
+lib/libhtc_facebeauty.so
 lib/libHtcVteEngine.so:vendor/lib/libHtcVteEngine.so
 lib/libhtcsecure.so:vendor/lib/libhtcsecure.so
 lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so
