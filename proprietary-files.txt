@@ -690,7 +690,6 @@ vendor/lib64/libmm-qdcm.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libscale.so
-vendor/lib64/libuiblur.so
 
 # IPA
 bin/ipacm-diag:vendor/bin/ipacm-diag
