@@ -23,9 +23,6 @@ audio.ds1.metainfo.key=273
 ro.bt.bdaddr_path=/sys/module/htc_bdaddress/parameters/bdaddress
 
 # Camera
-camera2.portability.force_api=1
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
 
 # Display
 persist.hwc.mdpcomp.enable=true
