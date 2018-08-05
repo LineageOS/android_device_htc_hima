@@ -1,6 +1,7 @@
 subdirs = [
     "camera",
     "init",
+    "liblog_htc",
     "light",
     "usb",
     "vibrator",
