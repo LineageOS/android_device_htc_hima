@@ -4,6 +4,7 @@ subdirs = [
     "liblog_htc",
     "light",
     "shims",
+    "thermal",
     "usb",
     "vibrator",
 ]
