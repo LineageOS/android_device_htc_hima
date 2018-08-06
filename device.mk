@@ -160,12 +160,12 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.qcom.rc \
-    init.qcom.power.rc \
-    init.qcom.usb.rc \
-    init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    fstab.hima \
+    init.hima.rc \
+    init.hima.power.rc \
+    init.hima.usb.rc \
+    init.recovery.hima.rc \
+    ueventd.hima.rc
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -247,7 +247,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     android.hardware.power@1.0-service \
-    power.qcom
+    power.hima
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service \
-    thermal.qcom
+    thermal.hima
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-engine.conf:system/etc/thermal-engine.conf
