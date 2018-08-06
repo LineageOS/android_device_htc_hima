@@ -1,0 +1,13 @@
+Hack out face detection from camera
+Check for other HTC camera system properties
+Treble-compliant 8994 HALs
+Verify power HAL functionality
+Fix /data/misc/cw_calibrator file SELinux policy
+Enable encryption by default
+XML audio effect config
+Label /sys/kernel/debug/ion for camera HAL
+Add LiveDisplay support
+Add FlipFlap support
+IMS support
+Kernel security patches/upstream merge
+Use TARGET_COPY_OUT_VENDOR for file copies
