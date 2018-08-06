@@ -164,7 +164,6 @@ PRODUCT_PACKAGES += \
     init.hima.rc \
     init.hima.power.rc \
     init.hima.usb.rc \
-    init.recovery.hima.rc \
     ueventd.hima.rc
 
 # Input
