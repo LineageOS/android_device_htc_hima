@@ -587,6 +587,7 @@ vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmcamera_sony_imx214_eeprom.so
 vendor/lib/libmmcamera_t4ka7.so
 vendor/lib/libmmcamera_vd6869.so
+vendor/lib/libSonyIMX230PdafLibrary.so
 
 # DRM
 bin/qseecomd:vendor/bin/qseecomd
