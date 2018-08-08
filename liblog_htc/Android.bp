@@ -16,6 +16,6 @@ cc_library_shared {
 
     srcs: ["htc_log.c"],
 
-    name: "liblog_htc",
+    name: "liblog_htc_hima",
 
 }
