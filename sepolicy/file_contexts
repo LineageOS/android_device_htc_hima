@@ -39,6 +39,9 @@
 /dev/block/platform/soc.0/f9824900.sdhci/by-name/rfg_[0-9]*         u:object_r:modem_efs_partition_device:s0
 
 # Sensors
+/data/misc/AccOffset.txt                                            u:object_r:sensors_data_file:s0
+/data/misc/cw_calibrator_mag.ini                                    u:object_r:sensors_data_file:s0
+/data/misc/cw_calibrator_proximty.ini                               u:object_r:sensors_data_file:s0
 /sys/bus/iio/devices(/.*)?                                          u:object_r:sysfs_sensors:s0
 /sys/devices/soc.0/f9927000.i2c/i2c-15/15-0072/iio:device0(/.*)?    u:object_r:sysfs_sensors:s0
 /sys/devices/virtual/htc_sensorhub(/.*)?                            u:object_r:sysfs_sensors:s0
