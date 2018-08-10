@@ -1,6 +1,5 @@
 #
-# Copyright 2015 The CyanogenMod Project
-# Copyright 2016-2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,18 +12,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit from hima device
-$(call inherit-product, device/htc/hima/device.mk)
-
-# Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := hima
-PRODUCT_NAME := full_hima
-PRODUCT_BRAND := htc
-PRODUCT_MODEL := HTC One M9
-PRODUCT_MANUFACTURER := HTC
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/lineage_hima.mk
