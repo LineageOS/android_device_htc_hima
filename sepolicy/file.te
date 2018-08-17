@@ -1,2 +1,3 @@
 type debugfs_ion, debugfs_type, fs_type;
+type proc_version, fs_type;
 type sysfs_cir, fs_type, sysfs_type;
