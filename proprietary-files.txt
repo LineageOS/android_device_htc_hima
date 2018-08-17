@@ -93,7 +93,7 @@ lib/libawb_calibration.so:vendor/lib/libawb_calibration.so
 lib/libBeautyChat.so:vendor/lib/libBeautyChat.so
 lib/libc2dcolorconvertgpu.so:vendor/lib/libc2dcolorconvertgpu.so
 lib/libcameraface.so:vendor/lib/libcameraface.so
-lib/libcamerapp.so:vendor/lib/libcamerapp.so
+lib/libcamerapp.so:vendor/lib/libcamerapp.so|c7a577c6479af68e490c984a88fb00fa396d5c7e
 lib/libFaceRetrieve.so:vendor/lib/libFaceRetrieve.so
 lib/libhtc_facebeauty.so
 lib/libHtcVteEngine.so:vendor/lib/libHtcVteEngine.so
