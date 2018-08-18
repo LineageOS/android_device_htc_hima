@@ -142,7 +142,6 @@
     <string-array translatable="false" name="config_tether_usb_regexs">
         <item>"usb\\d"</item>
         <item>"rndis\\d"</item>
-        <item>ncm\\d</item>
     </string-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
@@ -150,22 +149,21 @@
          should be empty.  An example would be "softap.*" -->
     <string-array translatable="false" name="config_tether_wifi_regexs">
         <item>"wlan0"</item>
-        <item>"softap.*"</item>
     </string-array>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          bluetooth interfaces.  If the device doesn't want to support tethering over bluetooth this
          should be empty. -->
     <string-array translatable="false" name="config_tether_bluetooth_regexs">
-           <item>"bt-pan"</item>
+        <item>"bt-pan"</item>
     </string-array>
 
     <!-- Array of allowable ConnectivityManager network types for tethering -->
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
          [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
     <integer-array translatable="false" name="config_tether_upstream_types">
-        <item>0</item>
         <item>1</item>
+        <item>0</item>
         <item>4</item>
         <item>5</item>
         <item>7</item>
@@ -194,12 +192,8 @@
         <item>wifi_p2p,13,1,0,-1,true</item>
         <item>mobile_ia,14,0,2,-1,true</item>
         <item>mobile_emergency,15,0,2,-1,true</item>
-        <item>usbnet,51,51,6,-1,true</item>
-        <item>mobile_httpproxy,52,0,2,60000,true</item>
-        <item>mobile_internet,53,0,2,60000,true</item>
-        <item>mobile_vapp,54,0,2,1800000,true</item>
-        <item>mobile_caller_name_id,55,0,2,1800000,true</item>
-        <item>mobile_v800,56,0,2,60000,true</item>
+        <item>mobile_vapp,52,0,2,1800000,true</item>
+        <item>mobile_caller_name_id,53,0,2,1800000,true</item>
     </string-array>
 
     <!-- This string array should be overridden by the device to present a list of radio
