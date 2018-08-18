@@ -696,8 +696,14 @@ etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw
 
 # IMS
-bin/imscmservice:vendor/bin/imscmservice
+etc/permissions/imscm.xml|8b99ec26c783966bbea1fcb8e72c7c0206a4e802
+framework/imscmlibrary.jar|0c24d6540c06efede52169c1445272f43748180f
+vendor/bin/ims_rtp_daemon|896a7d67d73f9c0ef0f48f86af0e055737c781df
+vendor/bin/imscmservice|c606b123bdd105866947a9ae19aab05349ad2dfd
+vendor/bin/imsdatadaemon|2aa4067b74fe525411984f87666d81c5b6b575d3
+vendor/bin/imsqmidaemon|88886668eda7b7303b4a7aefd5b8b3fbffd81b02
 -vendor/app/ims/ims.apk|83587acd4ee2a5c957792a4860cbe85597e6e56a
+-vendor/app/imssettings/imssettings.apk|cd206ecfdf8b9c738823104e13672707cb48ffd1
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-imscamera.so
 vendor/lib64/lib-imsdpl.so
@@ -720,6 +726,7 @@ vendor/lib64/lib-rtpsl.so
 vendor/lib64/libimscamera_jni.so
 vendor/lib64/libimsmedia_jni.so
 vendor/lib64/librcc.so
+vendor/lib64/libvoice-svc.so|238f774a4d0748c40569f6c3c48a87578f79c265
 
 # IPA
 bin/ipacm-diag:vendor/bin/ipacm-diag
