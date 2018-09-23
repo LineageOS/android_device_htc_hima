@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
 
 # HTC Logging functions
 PRODUCT_PACKAGES += \
-    liblog_htc_hima
+    liblog_htc
 
 # Init
 PRODUCT_PACKAGES += \
