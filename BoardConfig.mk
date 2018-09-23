@@ -166,6 +166,10 @@ BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 -include device/qcom/sepolicy/legacy-sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/htc/hima/sepolicy
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/htc/hiae/liblog_htc
+
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
