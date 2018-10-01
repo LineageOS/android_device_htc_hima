@@ -1,0 +1,10 @@
+Fix NFC config
+NFC to vendor partition
+Fix camera
+Add CPU_UID support
+IMS support
+Add LiveDisplay support -- not sure if possible, no post proc service by default
+Add FlipFlap support -- events not passing to app
+Decode HTC camera_frame_metadata_t memory layout
+Verify power HAL functionality
+Kernel security patches/upstream merge
