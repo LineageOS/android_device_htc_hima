@@ -69,16 +69,17 @@ extern "C" void _ZN7android13GraphicBufferC1Ejjij(
 
 extern "C" status_t _ZN7android21SurfaceComposerClient17setDisplaySurfaceERKNS_2spINS_7IBinderEEERKNS1_INS_22IGraphicBufferProducerEEE(
     const sp<IBinder>& token, const sp<IGraphicBufferProducer>& bufferProducer) {
-  // setDisplaySurface is a static method, call it directly
-  return android::SurfaceComposerClient::setDisplaySurface(token, bufferProducer);
+  android::SurfaceComposerClient::Transaction t;
+  t.setDisplaySurface(token, bufferProducer);
+  return t.apply();
 }
 
 // sp<SurfaceControl> createSurface(const String8& name, uint32_t w, uint32_t h,
 //                                  PixelFormat format, uint32_t flags = 0,
 //                                  SurfaceControl* parent = nullptr,
-//                                  uint32_t windowType = 0,
-//                                  uint32_t ownerUid = 0);
-extern "C" void* _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8EjjijPNS_14SurfaceControlEjj(
+//                                  int32_t windowType = -1,
+//                                  int32_t ownerUid = -1);
+extern "C" void* _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8EjjijPNS_14SurfaceControlEii(
     const android::String8& name, uint32_t w, uint32_t h, PixelFormat format,
     uint32_t flags, SurfaceControl* parent, uint32_t windowType,
     uint32_t ownerUid);
@@ -86,13 +87,14 @@ extern "C" void* _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8
 extern "C" void* _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8Ejjij(
     const android::String8& name, uint32_t w, uint32_t h, PixelFormat format,
     uint32_t flags) {
-  return _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8EjjijPNS_14SurfaceControlEjj(
+  return _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8EjjijPNS_14SurfaceControlEii(
       name, w, h, format, flags, nullptr, 0, 0);
 }
 
-// status_t setLayer(int32_t layer);
-extern "C" status_t _ZN7android14SurfaceControl8setLayerEi(int32_t layer);
-
-extern "C" status_t _ZN7android14SurfaceControl8setLayerEj(uint32_t layer) {
-  return _ZN7android14SurfaceControl8setLayerEi(layer);
+extern "C" status_t _ZN7android14SurfaceControl8setLayerEj(void* obj, uint32_t layer) {
+  // First parameter is the SurfaceControl object itself
+  sp<android::SurfaceControl> sc = sp<android::SurfaceControl>((android::SurfaceControl*) obj);
+  android::SurfaceComposerClient::Transaction t;
+  t.setLayer(sc, layer);
+  return t.apply();
 }
