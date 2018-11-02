@@ -109,3 +109,4 @@ ro.ril.ltefgi.rel9=2147483648
 
 # Wifi
 wifi.interface=wlan0
+wifi.direct.interface=p2p-dev-wlan0
