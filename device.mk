@@ -129,8 +129,7 @@ PRODUCT_PACKAGES += \
     copybit.msm8994 \
     gralloc.msm8994 \
     hwcomposer.msm8994 \
-    memtrack.msm8994 \
-    liboverlay
+    memtrack.msm8994
 
 # Dot View Case
 PRODUCT_PACKAGES += \
