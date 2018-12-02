@@ -757,6 +757,7 @@ etc/firmware/venus.mbn:vendor/firmware/venus.mbn
 etc/firmware/venus.mdt:vendor/firmware/venus.mdt
 
 # NFC
+lib64/hw/nfc_nci_pn547.default.so:vendor/lib64/hw/nfc_nci.msm8994.so|5f0a93a9deb5225d0b0de454a5e8bf871eb67265
 vendor/firmware/libpn547_fw.so
 
 # Perf
