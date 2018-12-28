@@ -154,9 +154,6 @@ BOARD_USES_QC_TIME_SERVICES := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/htc/hima/rootdir/etc/recovery.fstab
 
-# RIL
-TARGET_RIL_VARIANT := caf
-
 # Sensors
 BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 
