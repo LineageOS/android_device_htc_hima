@@ -154,9 +154,6 @@ BOARD_USES_QC_TIME_SERVICES := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/htc/hima/rootdir/etc/recovery.fstab
 
-# Sensors
-BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
-
 # SELinux
 -include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/htc/hima/sepolicy
