@@ -695,32 +695,6 @@ vendor/lib64/libscale.so|248355dab3b68ad2fa320b173580cdf9410bdc66
 etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw|ceb61d9f1385b3f2956d72f33e0bd43cb12f72f0
 etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw|96addc1f5cb6dd3a57fc40ef0a6ba8721d5b601f
 
-# IMS
-bin/imscmservice:vendor/bin/imscmservice
--vendor/app/ims/ims.apk|83587acd4ee2a5c957792a4860cbe85597e6e56a
-vendor/lib64/lib-dplmedia.so
-vendor/lib64/lib-imscamera.so
-vendor/lib64/lib-imsdpl.so
-vendor/lib64/lib-imsqimf.so
-vendor/lib64/lib-ims-rcscmjni.so
-vendor/lib64/lib-imsrcscmclient.so
-vendor/lib64/lib-imsrcscmservice.so
-vendor/lib64/lib-imsrcscm.so
-vendor/lib64/lib-imsrcs.so
-vendor/lib64/lib-imsSDP.so
-vendor/lib64/lib-imss.so
-vendor/lib64/lib-imsvt.so
-vendor/lib64/lib-imsxml.so
-vendor/lib64/lib-rcsimssjni.so
-vendor/lib64/lib-rcsjni.so
-vendor/lib64/lib-rtpcommon.so
-vendor/lib64/lib-rtpcore.so
-vendor/lib64/lib-rtpdaemoninterface.so
-vendor/lib64/lib-rtpsl.so
-vendor/lib64/libimscamera_jni.so
-vendor/lib64/libimsmedia_jni.so
-vendor/lib64/librcc.so
-
 # IPA
 bin/ipacm-diag:vendor/bin/ipacm-diag
 
