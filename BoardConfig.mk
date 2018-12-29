@@ -160,7 +160,7 @@ BOARD_SEPOLICY_DIRS += device/htc/hima/sepolicy
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/htc/hima/liblog_htc
+    device/htc/hima
 
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
