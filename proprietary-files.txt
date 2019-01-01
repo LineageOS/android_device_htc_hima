@@ -695,9 +695,6 @@ vendor/lib64/libscale.so|248355dab3b68ad2fa320b173580cdf9410bdc66
 etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw|ceb61d9f1385b3f2956d72f33e0bd43cb12f72f0
 etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw|96addc1f5cb6dd3a57fc40ef0a6ba8721d5b601f
 
-# IPA
-bin/ipacm-diag:vendor/bin/ipacm-diag
-
 # IR
 bin/cir_fw_update:vendor/bin/cir_fw_update
 etc/cir.img
