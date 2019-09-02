@@ -380,10 +380,10 @@ service vendor.per_proxy /system/vendor/bin/pm-proxy
     disabled
 
 on property:init.svc.vendor.per_mgr=running
-    start per_proxy
+    start vendor.per_proxy
 
 on property:sys.shutdown.requested=*
-    stop per_proxy
+    stop vendor.per_proxy
 
 service vendor.perfd /system/vendor/bin/perfd
     class main
